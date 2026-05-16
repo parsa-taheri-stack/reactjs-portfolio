@@ -8,6 +8,7 @@
   padding: 0.7rem 1rem;
   transition: 0.2s;
   cursor: pointer;
+  width: fit-content;
 }
 
 .btn:hover {
