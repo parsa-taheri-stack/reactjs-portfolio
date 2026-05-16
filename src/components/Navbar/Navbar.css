@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  padding: 20px 50px;
+  backdrop-filter: blur(10px);
+}
+
+.nav-items {
+  display: flex;
+  width: fit-content;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  width: 42px;
+}
+
+.nav-btns {
+  margin-left: 10px;
+  transition: 0.4s;
+}
+.nav-btns:hover {
+  margin-left: 20px;
+}
+
+#nav-icon-link {
+  color: var(--text-color-2);
+}
